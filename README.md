@@ -1,16 +1,5 @@
 # Fulltimeforce task
 
-To see the website click [here](https://fulltimeforce-react-typescript.web.app/).
-
-Or copy this url:
-```
-https://fulltimeforce-react-typescript.web.app/
-```
-
-## Deploy
-
-firebase hosting:channel:deploy fulltimeforce-react-typescript
-
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
