@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.1.2](https://github.com/brucegroverlee/fulltimeforce/compare/v0.1.1...v0.1.2) (2020-10-10)
+
+
+### Bug Fixes
+
+* **interfaces/commit:** [12] add commit's attributes ([87ff8ba](https://github.com/brucegroverlee/fulltimeforce/commit/87ff8ba112b8a5c934a96dc1292f0a66fac8203b))
+
 ### 0.1.1 (2020-10-10)
 
 
