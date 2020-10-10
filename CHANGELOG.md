@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.1.3](https://github.com/brucegroverlee/fulltimeforce/compare/v0.1.2...v0.1.3) (2020-10-10)
+
+
+### Styling
+
+* [13] add style ([87f30c4](https://github.com/brucegroverlee/fulltimeforce/commit/87f30c4c551d50057373528331fbf9e9d782aa1a))
+
 ### [0.1.2](https://github.com/brucegroverlee/fulltimeforce/compare/v0.1.1...v0.1.2) (2020-10-10)
 
 
