@@ -1,0 +1,3 @@
+export const GITHUB_API_ENDPOINT = process.env.REACT_APP_GITHUB_API_ENDPOINT;
+export const GITHUB_USER = process.env.REACT_APP_GITHUB_USER;
+export const GITHUB_PROJECT = process.env.REACT_APP_GITHUB_PROJECT;
