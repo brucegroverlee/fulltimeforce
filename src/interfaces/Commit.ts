@@ -2,6 +2,16 @@
  * https://docs.github.com/en/free-pro-team@latest/rest/reference/repos#list-commits
  */
 
+export interface CommitAttrInterface {
+  author: any;
+  committer: any;
+  message: string;
+  tree: any;
+  url: string;
+  comment_count: number;
+  verification: any;
+}
+
 export interface AuthorInterface {
   login: string;
   id: number;
@@ -47,7 +57,7 @@ export interface CommitterInterface {
 export interface CommitInterface {
   sha: string;
   node_id: string;
-  commit: any;
+  commit: CommitAttrInterface;
   url: string;
   html_url: string;
   comments_url: string;
