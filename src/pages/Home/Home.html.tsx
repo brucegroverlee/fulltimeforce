@@ -1,29 +1,23 @@
 import React from 'react';
-import { CommitInterface } from '../../interfaces/Commit'
-import { CommitCard } from './components/CommitCard';
+import { Row, Col } from "reactstrap";
+import { CommitInterface } from '../../interfaces/Commit';
+import { Title } from '../../components/Title/Title';
+import { CommitsTimeline } from './components/CommitsTimeline';
 
 interface HomeHtmlProps {
   commits: CommitInterface[];
 }
 
-const commitsList = (commits: CommitInterface[]) => {
-  return commits.map(commit => (
-    <CommitCard
-      key={commit.sha}
-      {...commit}
-    />
-  ))
-}
-
 export const HomeHtml: React.FunctionComponent<HomeHtmlProps> = (props) => {
-  const commitCardsList = commitsList(props.commits);
   return(
-    <div>
-      <div>
-        HomeHtml
-      </div>
-      <div>
-        {commitCardsList}
+    <div className="app-content content">
+      <div className="content-wrapper">
+        <Title title="Fulltimeforce Home"/>
+        <Row className="match-height">
+          <Col lg="6" md="12">
+            <CommitsTimeline {...props} />
+          </Col>
+        </Row>
       </div>
     </div>
   )
